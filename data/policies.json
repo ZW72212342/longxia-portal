@@ -1,0 +1,70 @@
+{
+  "update_time": "2026-03-23 22:22:57",
+  "total": 8,
+  "policies": [
+    {
+      "title": "《节能装备高质量发展实施方案（2026—2028 年）》",
+      "date": "2026-03-20",
+      "source": "工业和信息化部",
+      "category": "工信部政策",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/index.html",
+      "summary": "工信部联节〔2026〕44 号，推动节能装备高质量发展"
+    },
+    {
+      "title": "《推动工业互联网平台高质量发展行动方案（2026—2028 年）》",
+      "date": "2026-03-18",
+      "source": "工业和信息化部",
+      "category": "工信部政策",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/index.html",
+      "summary": "工信部信发〔2025〕276 号，加快工业互联网创新发展"
+    },
+    {
+      "title": "《国有企业领导人员廉洁从业规定》",
+      "date": "2026-03-22",
+      "source": "中共中央办公厅、国务院办公厅",
+      "category": "国务院政策",
+      "url": "https://www.gov.cn/zhengce/index.htm",
+      "summary": "规范国有企业领导人员廉洁从业行为"
+    },
+    {
+      "title": "《关于加强党建带团建工作的意见》",
+      "date": "2026-03-20",
+      "source": "中共中央办公厅",
+      "category": "国务院政策",
+      "url": "https://www.gov.cn/zhengce/index.htm",
+      "summary": "加强党建带团建工作，提升团组织活力"
+    },
+    {
+      "title": "《关于推进社会工作专业人员队伍建设的意见》",
+      "date": "2026-03-14",
+      "source": "中共中央办公厅、国务院办公厅",
+      "category": "国务院政策",
+      "url": "https://www.gov.cn/zhengce/index.htm",
+      "summary": "推进社会工作专业人员队伍建设"
+    },
+    {
+      "title": "《关于调整海南离岛旅客免税购物政策的公告》",
+      "date": "2026-03-17",
+      "source": "国务院",
+      "category": "国务院政策",
+      "url": "https://www.gov.cn/zhengce/index.htm",
+      "summary": "调整海南离岛旅客免税购物政策"
+    },
+    {
+      "title": "《关于开展城域毫秒用算专项行动的通知》",
+      "date": "2026-03-17",
+      "source": "工业和信息化部办公厅",
+      "category": "工信部政策",
+      "url": "https://www.miit.gov.cn/zwgk/zcwj/index.html",
+      "summary": "开展城域毫秒用算专项行动，提升算力效率"
+    },
+    {
+      "title": "《关于全面推进医保基金即时结算改革扩面提质的通知》",
+      "date": "2026-03-16",
+      "source": "国家医疗保障局",
+      "category": "国务院政策",
+      "url": "https://www.gov.cn/zhengce/index.htm",
+      "summary": "全面推进医保基金即时结算改革"
+    }
+  ]
+}
