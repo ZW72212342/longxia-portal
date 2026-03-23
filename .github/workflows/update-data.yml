@@ -30,13 +30,11 @@ jobs:
       
       - name: Fetch policies data
         run: |
-          cd scripts
-          python fetch_policies.py
+          python scripts/fetch_policies.py
       
       - name: Fetch reports data
         run: |
-          cd scripts
-          python fetch_reports.py
+          python scripts/fetch_reports.py
       
       - name: Check for changes
         id: git-check
