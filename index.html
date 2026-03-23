@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦞 龙虾知识门户 - 软件与信息技术服务</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .hero-section { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 80px 0; }
+        .domain-card { transition: transform 0.3s; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .domain-card:hover { transform: translateY(-5px); }
+        .domain-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .institution-table { font-size: 0.9rem; }
+        footer { background: #f8f9fa; padding: 30px 0; }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-rocket-takeoff"></i> 🦞 龙虾知识门户</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#ai">人工智能</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#data">数据治理</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ops">智能运维</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#manufacturing">智能制造</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#electronic">电子智能化</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#institutions">权威机构</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区 -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">🦞 龙虾知识门户</h1>
+            <p class="lead">软件与信息技术服务领域权威机构资源聚合平台</p>
+            <p class="mb-4">基于 30 个权威机构的完整资源体系</p>
+            <a href="#institutions" class="btn btn-light btn-lg">📋 查看权威机构</a>
+            <a href="https://github.com/ZW72212342/longxia-portal" class="btn btn-outline-light btn-lg ms-2">🔗 GitHub 仓库</a>
+        </div>
+    </section>
+
+    <!-- 五大领域 -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">🎯 五大核心领域</h2>
+            <div class="row g-4">
+                <!-- 人工智能 -->
+                <div class="col-md-4" id="ai">
+                    <div class="card domain-card h-100">
+                        <div class="card-body text-center">
+                            <div class="domain-icon">🤖</div>
+                            <h4>人工智能</h4>
+                            <p class="text-muted">中科院计算所、科技部权威资源</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle text-success"></i> 基础软件研究</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 高性能计算</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 软件理论</li>
+                            </ul>
+                            <a href="content/ai/index.html" class="btn btn-primary">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 数据治理 -->
+                <div class="col-md-4" id="data">
+                    <div class="card domain-card h-100">
+                        <div class="card-body text-center">
+                            <div class="domain-icon">📊</div>
+                            <h4>数据治理</h4>
+                            <p class="text-muted">国家数据局、网信办权威资源</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle text-success"></i> 数据要素市场</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 数字化转型</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 数据资源管理</li>
+                            </ul>
+                            <a href="content/data-governance/index.html" class="btn btn-primary">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 智能运维 -->
+                <div class="col-md-4" id="ops">
+                    <div class="card domain-card h-100">
+                        <div class="card-body text-center">
+                            <div class="domain-icon">⚙️</div>
+                            <h4>智能运维</h4>
+                            <p class="text-muted">工信部、信通院权威资源</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle text-success"></i> 网络安全监测</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 应急响应</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 漏洞通报</li>
+                            </ul>
+                            <a href="content/intelligent-ops/index.html" class="btn btn-primary">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 智能制造 -->
+                <div class="col-md-4" id="manufacturing">
+                    <div class="card domain-card h-100">
+                        <div class="card-body text-center">
+                            <div class="domain-icon">🏭</div>
+                            <h4>智能制造</h4>
+                            <p class="text-muted">工信部、赛迪研究院权威资源</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle text-success"></i> 工业软件安全</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 产业研究</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 政策咨询</li>
+                            </ul>
+                            <a href="content/smart-manufacturing/index.html" class="btn btn-primary">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 电子智能化 -->
+                <div class="col-md-4" id="electronic">
+                    <div class="card domain-card h-100">
+                        <div class="card-body text-center">
+                            <div class="domain-icon">🔌</div>
+                            <h4>电子智能化</h4>
+                            <p class="text-muted">电子标准化研究院权威资源</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle text-success"></i> 软件标准制定</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 符合性测试</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 标准宣贯</li>
+                            </ul>
+                            <a href="content/electronic-intel/index.html" class="btn btn-primary">查看详情</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 政策发布 -->
+                <div class="col-md-4">
+                    <div class="card domain-card h-100">
+                        <div class="card-body text-center">
+                            <div class="domain-icon">📢</div>
+                            <h4>政策发布</h4>
+                            <p class="text-muted">国务院、各部委官方渠道</p>
+                            <ul class="list-unstyled text-start">
+                                <li><i class="bi bi-check-circle text-success"></i> 产业政策</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 人才政策</li>
+                                <li><i class="bi bi-check-circle text-success"></i> 安全合规</li>
+                            </ul>
+                            <a href="#institutions" class="btn btn-primary">查看渠道</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 权威机构表格 -->
+    <section class="py-5 bg-light" id="institutions">
+        <div class="container">
+            <h2 class="text-center mb-5">🏛️ 30 个权威机构速查表</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-hover institution-table">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>序号</th>
+                            <th>机构名称</th>
+                            <th>主要职能</th>
+                            <th>官方网站</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>01</td><td>工业和信息化部</td><td>软件业管理、信息技术服务规划</td><td><a href="https://www.miit.gov.cn" target="_blank">www.miit.gov.cn</a></td></tr>
+                        <tr><td>02</td><td>国家数据局</td><td>数据要素市场、数字化转型</td><td><a href="https://www.datagov.cn" target="_blank">www.datagov.cn</a></td></tr>
+                        <tr><td>03</td><td>科学技术部</td><td>科技计划管理、软件技术研发支持</td><td><a href="https://www.most.gov.cn" target="_blank">www.most.gov.cn</a></td></tr>
+                        <tr><td>04</td><td>国家互联网信息办公室</td><td>网络安全管理、数据安全监管</td><td><a href="https://www.cac.gov.cn" target="_blank">www.cac.gov.cn</a></td></tr>
+                        <tr><td>05</td><td>中国信息通信研究院</td><td>通信与软件技术研究、标准制定</td><td><a href="https://www.caict.ac.cn" target="_blank">www.caict.ac.cn</a></td></tr>
+                        <tr><td>06</td><td>赛迪研究院</td><td>产业研究、政策咨询、白皮书发布</td><td><a href="https://www.ccidgroup.com" target="_blank">www.ccidgroup.com</a></td></tr>
+                        <tr><td>07</td><td>中国科学院软件研究所</td><td>基础软件、系统软件、软件工程</td><td><a href="http://www.iscas.ac.cn" target="_blank">www.iscas.ac.cn</a></td></tr>
+                        <tr><td>08</td><td>中国科学院计算技术研究所</td><td>计算机软件理论、人工智能</td><td><a href="http://www.ict.ac.cn" target="_blank">www.ict.ac.cn</a></td></tr>
+                        <tr><td>09</td><td>中国电子技术标准化研究院</td><td>软件标准制定、符合性测试</td><td><a href="http://www.cesi.cn" target="_blank">www.cesi.cn</a></td></tr>
+                        <tr><td>10</td><td>国家计算机网络应急中心</td><td>网络安全监测、应急响应</td><td><a href="https://www.cert.org.cn" target="_blank">www.cert.org.cn</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-center text-muted mt-3">* 完整 30 个机构信息见各领域详情页 | 数据截至 2026 年 3 月 23 日</p>
+        </div>
+    </section>
+
+    <!-- 更新频率 -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">📅 内容更新计划</h2>
+            <div class="row">
+                <div class="col-md-2 text-center">
+                    <div class="display-6 text-primary">每日</div>
+                    <p class="text-muted">政策动态、行业新闻</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="display-6 text-primary">每周</div>
+                    <p class="text-muted">部委发布会、政策解读</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="display-6 text-primary">每月</div>
+                    <p class="text-muted">行业统计数据</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="display-6 text-primary">每季</div>
+                    <p class="text-muted">产业研究报告、白皮书</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="display-6 text-primary">每年</div>
+                    <p class="text-muted">年度发展报告</p>
+                </div>
+                <div class="col-md-2 text-center">
+                    <div class="display-6 text-success">✓</div>
+                    <p class="text-muted">本门户已建立</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-2">📚 数据来源：软件与信息技术服务领域权威机构汇编</p>
+            <p class="mb-2">🏢 收录机构：30 个权威机构 | 📅 最后更新：2026 年 3 月 23 日</p>
+            <p class="mb-0">🔧 技术栈：GitHub Pages + Bootstrap 5 | <a href="https://github.com/ZW72212342/longxia-portal">GitHub 仓库</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
